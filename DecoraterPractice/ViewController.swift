@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var memory: UILabel! {
         didSet{
             memory.text = String(iPhone.getTitle())
@@ -53,6 +52,5 @@ class ViewController: UIViewController {
             break
         }
     }
-    
 }
 

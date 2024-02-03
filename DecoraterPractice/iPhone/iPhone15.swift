@@ -16,6 +16,4 @@ class iPhone15: iPhoneProtocol{
     func getPrice() -> Int {
         return 999
     }
-    
-    
 }
